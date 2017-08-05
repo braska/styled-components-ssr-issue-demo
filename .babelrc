@@ -1,0 +1,21 @@
+{
+  "presets": [
+    "react",
+    [
+      "env",
+      {
+        "modules": false
+      }
+    ]
+  ],
+  "plugins": [
+    ["styled-components", {
+      "ssr": true,
+      "displayName": true
+    }],
+    "react-hot-loader/babel",
+    "transform-decorators-legacy",
+    "transform-class-properties",
+    "transform-object-rest-spread"
+  ]
+}

@@ -1,0 +1,11 @@
+doctype html
+html
+  head
+    title Styled-components SSR issue demo
+    | !{styles}
+  body
+    #root.
+      !{content}
+    script(src=assets['manifest.js'])
+    script(src=assets['vendor.js'])
+    script(src=assets['main.js'])
