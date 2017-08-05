@@ -17,7 +17,7 @@ const TomatoButton = Button.extend`
 
 export default () => (
   <div>
-    <Button>Normal Button1</Button>
+    <Button>Normal Button</Button>
     <TomatoButton>Tomato Button</TomatoButton>
   </div>
 );
